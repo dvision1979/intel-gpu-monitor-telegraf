@@ -16,7 +16,7 @@ cat <<EOF
   "name": "intel_gpu",
   "timestamp": $TIMESTAMP,
   "intel_gpu_util": $VIDEO_UTIL,
-  "gpu": "Intel Jasperlake (Gen11)"
+  "gpu": "Intel GPU"
 }
 EOF
 
