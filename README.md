@@ -8,7 +8,7 @@ Collect intel gpu monitoring data with telegraf to influxdb2/grafana
 - Raise the container with `docker compose up -d`
 - Check the logs with `docker compose logs -f`
 - Check the collected data in InfluxDB
-- Import the dashboard in Grafana (after you configured the InfluxDB datasource)
+- Import the dashboard (Grafana-dashboard.json) in Grafana (after you configured the InfluxDB datasource) 
 - Happy Intel monitoring :)
 
 ![image](https://github.com/user-attachments/assets/32ab496e-896d-4dfa-8eae-ab3d5e12dc77)
