@@ -1,0 +1,12 @@
+services:
+  telegraf:
+    #image: telegraf
+    build: .
+    user: root
+    devices:
+      - /dev/dri:/dev/dri
+    volumes:
+      # Mount for telegraf config
+      - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+      - ./get_intel_gpu_status.sh:/opt/intel-gpu-telegraf/get_intel_gpu_status.sh
+    privileged: true
