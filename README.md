@@ -11,4 +11,4 @@ Collect intel gpu monitoring data with telegraf to influxdb2/grafana
 - Import the dashboard in Grafana (after you configured the InfluxDB datasource)
 - Happy Intel monitoring :)
 
-![image](https://github.com/user-attachments/assets/aac4a434-49a9-4ada-b15a-3a4f3c6591ca)
+![image](https://github.com/user-attachments/assets/32ab496e-896d-4dfa-8eae-ab3d5e12dc77)
